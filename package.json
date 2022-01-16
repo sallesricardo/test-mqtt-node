@@ -6,6 +6,7 @@
   "scripts": {
     "start-publisher": "nodemon publisher.js",
     "start-consumer": "nodemon subscriber.js",
+    "sub-mqtt": "mqtt sub -t 'test/connection' -h 'localhost' -v",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
